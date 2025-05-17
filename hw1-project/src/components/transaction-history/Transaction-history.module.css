@@ -1,0 +1,31 @@
+.transaction-table {
+    border: 1px solid #1a1a1a;
+    border-collapse: collapse;
+}
+
+.transaction-table thead {
+    background-color: #242424;
+    padding: 0;
+    margin: 0;
+    border-spacing: 0;
+}
+
+.transaction-table th {
+    border: 1px solid #1a1a1a;
+    color: #F5F5F5;
+    padding: 10px;
+}
+
+.transaction-table tbody tr {
+    text-align: center;
+}
+
+.transaction-table tbody td {
+    border: 1px solid #1a1a1a;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.transaction-table tbody tr:nth-child(even) {
+    background-color: #CCC;
+}
